@@ -13,13 +13,13 @@ void bubbleSort(int array[], int n) {
                 flag = 1;
             }
         }
+        // Early stopping if no swaps occurred
+        // it means the array is already sorted
         if(flag = 0) {
             break;
         }
     }
 }
-
-// hello 
 
 void printArray(int array[], int n) {
   for (int i = 0; i < n; i++) {

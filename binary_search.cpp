@@ -3,7 +3,7 @@
 int main()
 {
     int n = 6;
-    int ara[] = {3,6,9,12,15};
+    int ara[] = {3,6,9,12,15,18};
     int key = 9;
     int found = 0;
 
@@ -11,7 +11,6 @@ int main()
     int high = n - 1;
     int mid;
 
-    // hello 
 
     while (low <= high)
     {

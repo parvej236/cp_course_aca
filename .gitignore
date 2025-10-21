@@ -19,9 +19,6 @@
 # Executables and output files
 *.out
 program
-*
-!*/
-!*.*
 
 # VS Code
 .vscode/
