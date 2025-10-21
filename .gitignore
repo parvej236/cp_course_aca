@@ -2,6 +2,12 @@
 *.o
 *.obj
 
+
+# keep .cpp and .md and .gitignore files
+!*.cpp
+!*.md
+!.gitignore
+
 # Precompiled Headers
 *.gch
 
@@ -13,20 +19,6 @@
 # Executables and output files
 *.out
 program
-
-# Build directories
-build/
-
-# Coverage reports
-coverage/
-*.gcda
-*.gcno
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
 
 # VS Code
 .vscode/
@@ -40,20 +32,4 @@ Thumbs.db
 # Logs and temporary files
 *.log
 *.tmp
-
-# Backup files
-*~
-
-# Python virtualenvs (if present in tools)
-venv/
-.env
-
-# JetBrains
 .idea/
-
-# Node modules if any
-node_modules/
-
-# Ignore input/output sample files (optional)
-# input.txt
-# output.txt
